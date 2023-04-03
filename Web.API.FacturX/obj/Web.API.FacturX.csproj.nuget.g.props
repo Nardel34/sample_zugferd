@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\NARDELLA\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.4.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\NARDELLA\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\CSS\jquery-ui.css" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\CSS\jquery-ui.css')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>31.2.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\CSS\jquery-ui.css</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\CSS\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\CSS\jquery-ui.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\CSS\main.min.css" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\CSS\main.min.css')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>31.2.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\CSS\main.min.css</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\CSS\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\CSS\main.min.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\JS\ThirdParty\jquery-ui.min.js" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\JS\ThirdParty\jquery-ui.min.js')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>31.2.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\JS\ThirdParty\jquery-ui.min.js</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\JS\ThirdParty\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\JS\ThirdParty\jquery-ui.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\JS\ThirdParty\jquery.min.js" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\JS\ThirdParty\jquery.min.js')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>31.2.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\JS\ThirdParty\jquery.min.js</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\JS\ThirdParty\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\JS\ThirdParty\jquery.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\JS\ThirdParty\jquery.ui.touch-punch.min.js" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\JS\ThirdParty\jquery.ui.touch-punch.min.js')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>31.2.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\JS\ThirdParty\jquery.ui.touch-punch.min.js</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\JS\ThirdParty\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\JS\ThirdParty\jquery.ui.touch-punch.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\JS\tx.min.js" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.web\31.2.0\contentFiles\any\any\TXTextControl.Web\JS\tx.min.js')">
+      <NuGetPackageId>TXTextControl.Web</NuGetPackageId>
+      <NuGetPackageVersion>31.2.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>TXTextControl.Web\JS\tx.min.js</TargetPath>
+      <DestinationSubDirectory>TXTextControl.Web\JS\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>TXTextControl.Web\JS\tx.min.js</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <EmbeddedResource Include="$(NuGetPackageRoot)txtextcontrol.textcontrol.asp.sdk\31.0.2\contentFiles\any\any\licenses.licx" Condition="Exists('$(NuGetPackageRoot)txtextcontrol.textcontrol.asp.sdk\31.0.2\contentFiles\any\any\licenses.licx')">
+      <NuGetPackageId>TXTextControl.TextControl.ASP.SDK</NuGetPackageId>
+      <NuGetPackageVersion>31.0.2</NuGetPackageVersion>
+      <NuGetItemType>EmbeddedResource</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>licenses.licx</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props')" />
+    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgTXTextControl_Web Condition=" '$(PkgTXTextControl_Web)' == '' ">C:\Users\NARDELLA\.nuget\packages\txtextcontrol.web\31.2.0</PkgTXTextControl_Web>
+    <PkgTXTextControl_TextControl_ASP_SDK Condition=" '$(PkgTXTextControl_TextControl_ASP_SDK)' == '' ">C:\Users\NARDELLA\.nuget\packages\txtextcontrol.textcontrol.asp.sdk\31.0.2</PkgTXTextControl_TextControl_ASP_SDK>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\NARDELLA\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
+  </PropertyGroup>
+</Project>

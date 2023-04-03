@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\QUEOVAL_SOURCES\\Queoval.Services\\Web.API\\Web.API.FacturX\\Web.API.FacturX\\Web.API.FacturX.csproj": {}
+  },
+  "projects": {
+    "D:\\QUEOVAL_SOURCES\\Queoval.Services\\Web.API\\Web.API.FacturX\\Web.API.FacturX\\Web.API.FacturX.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QUEOVAL_SOURCES\\Queoval.Services\\Web.API\\Web.API.FacturX\\Web.API.FacturX\\Web.API.FacturX.csproj",
+        "projectName": "Web.API.FacturX",
+        "projectPath": "D:\\QUEOVAL_SOURCES\\Queoval.Services\\Web.API\\Web.API.FacturX\\Web.API.FacturX\\Web.API.FacturX.csproj",
+        "packagesPath": "C:\\Users\\NARDELLA\\.nuget\\packages\\",
+        "outputPath": "D:\\QUEOVAL_SOURCES\\Queoval.Services\\Web.API\\Web.API.FacturX\\Web.API.FacturX\\obj\\publish\\win-x64\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NARDELLA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Text Control GmbH\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "TXTextControl.TextControl.ASP.SDK": {
+              "target": "Package",
+              "version": "[31.0.2, )"
+            },
+            "TXTextControl.Web": {
+              "target": "Package",
+              "version": "[31.2.0, )"
+            },
+            "TXTextControl.Web.DocumentViewer": {
+              "target": "Package",
+              "version": "[31.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
